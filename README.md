@@ -23,7 +23,6 @@ The prototype was demoed to technical management and approved for a production b
 | Response time (streaming) | **~2.5 seconds** to first token |
 | Cost per session | **~$0.000154** (Claude Haiku + prompt caching) |
 | Cost saving vs SaaS baseline | **99%** ($1.60/month vs $200/month) |
-| Build time | 14 days at ~4 hours/day |
 
 ---
 
