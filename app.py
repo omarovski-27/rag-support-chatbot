@@ -1,5 +1,5 @@
 """
-app.py — Streamlit chat UI for the APG Local RAG Chatbot.
+app.py — Streamlit chat UI for the RAG Support Chatbot.
 
 Run:
     C:\\dev\\apg-rag-venv\\Scripts\\streamlit.exe run app.py
@@ -55,7 +55,7 @@ def _load_retriever():
 # ── Page config ──────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="APG Chat",
+    page_title="RAG Support Chatbot",
     page_icon="📦",
     layout="centered",
 )
@@ -145,8 +145,8 @@ def _render_escalation_card(result: dict) -> None:
 
 # ── UI ────────────────────────────────────────────────────────────────────────
 
-st.title("📦 APG Chat")
-st.caption("Customer support powered by APG Local RAG · PoC")
+st.title("📦 RAG Support Chatbot")
+st.caption("Customer support powered by Local RAG · PoC")
 
 # Sidebar — session info for demo/debug visibility
 with st.sidebar:

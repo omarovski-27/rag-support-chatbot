@@ -1,4 +1,4 @@
-# APG Chat — Local RAG Prototype
+# RAG Support Chatbot — Local RAG Prototype
 
 A local Retrieval-Augmented Generation chatbot for customer support, built in 14 days and greenlit for production on Azure AI Foundry.
 
