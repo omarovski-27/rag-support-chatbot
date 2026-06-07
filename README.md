@@ -10,7 +10,7 @@ A B2B logistics provider was running a SaaS-based customer support chatbot costi
 
 This prototype replaces the SaaS chatbot with a fully local RAG pipeline. It loads a structured knowledge base of markdown files, builds per-topic FAISS vector indexes combined with BM25 keyword retrieval, passes candidates through a cross-encoder reranker, and generates answers with Claude Haiku via the Anthropic API. The Streamlit UI adds tool-calling (live parcel tracking, human escalation), per-turn sentiment detection, CSAT star ratings, and structured JSON logging for all management KPIs. An evaluation harness measures retrieval accuracy and answer quality against 33 labelled test questions.
 
-The prototype was built over 14 days at approximately 4 hours per day, demoed to technical management, and approved for a production build on Azure AI Foundry. The production version will move the inference workload inside the organisation's Azure tenant to meet data residency requirements, replacing the Anthropic API with Azure-hosted Claude or GPT-4o.
+The prototype was demoed to technical management and approved for a production build on Azure AI Foundry. The production version moves the inference workload inside the organisation's Azure tenant to meet data residency requirements, with Claude Haiku replaced by Azure-hosted GPT-4o mini for most queries and GPT-4o for the more complex ones.
 
 ---
 
